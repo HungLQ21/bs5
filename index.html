@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Mobile City</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="bg-primary container-fluid navbar-dark">
+            <div class="container">
+
+                <div class="row top pt-2 mb-3 align-items-center">
+
+                    <!-- LOGO -->
+                    <div class="col-sm-2 col-6">
+                        <a href="">
+                            <img class="img-fluid" src="img/logo-mobilecity-1.png" alt="">
+                        </a>
+                    </div>
+
+                    <!-- TOGGLE MOBILE -->
+                    <div class="col-6 d-sm-none text-end">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class=" navbar-toggler-icon text-dark"></span>
+        </button>
+                    </div>
+
+                    <!-- CHỌN KHU VỰC -->
+                    <div class="col-sm-2 d-none d-sm-block">
+                        <div class="box shadow fs-sm">
+                            <p class="m-0 text">Xem giá, kho tồn tại:</p>
+                            <select class="form-select form-select-sm">
+                <option>Hà Nội</option>
+                <option>HCM</option>
+            </select>
+                        </div>
+                    </div>
+
+                    <!-- TÌM KIẾM -->
+                    <div class="col-sm-3 d-none d-sm-block">
+                        <div class="input-group">
+                            <span class="input-group-text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+                            <input type="text" class="form-control" placeholder="Tìm kiếm">
+                        </div>
+                    </div>
+
+                    <!-- ĐĂNG NHẬP -->
+                    <div class="col-sm-1 d-none d-sm-block">
+                        <div class="login-box">
+                            <div class="login-icon">
+                                <img src="img/icon_login.png" alt="Đăng nhập">
+                            </div>
+                            <span>Đăng nhập</span>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-1 d-none d-sm-block">
+                        <div class="login-box">
+                            <div class="login-icon">
+                                <img src="img/icon_login.png" alt="Đăng ký">
+                            </div>
+                            <span>Đăng ký</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- TIN TỨC -->
+                    <div class="col-sm-1 d-none d-sm-block fw-bold text-center">
+                        <span class="text-nowrap border-end pe-3">TIN TỨC</span>
+                    </div>
+
+                    <!-- EVENTS -->
+                    <div class="col-sm-1 d-none d-sm-block fw-bold text-center">
+                        <span class="text-nowrap border-end pe-3">EVENTS</span>
+                    </div>
+
+                    <!-- TRA CỨU -->
+                    <div class="col-sm-1 d-none d-sm-block fw-bold text-center">
+                        <span class="text-nowrap">TRA CỨU BH</span>
+                    </div>
+
+                </div>
+
+
+                <!-- BOT MENU -->
+                <nav class="navbar navbar-expand-sm p-0">
+                    <div class="collapse navbar-collapse" id="mynavbar">
+
+                        <!-- MENU CHÍNH -->
+                        <ul class="navbar-nav w-100 d-flex justify-content-between">
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/smartPhone.png"> Điện thoại
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/tablet.png"> Máy tính bảng
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/laptop.png"> Laptop
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/tv.png"> TV
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/charging.png"> Sạc
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/watch.png"> SmartWatch
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/headphone.png"> Tai nghe
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <img src="img/repair.png"> Sửa chữa
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- TIN TỨC - EVENTS - TRA CỨU BH (mobile) -->
+                        <ul class="navbar-nav d-sm-none mt-2 flex-row text-center">
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link text-white fw-bold text-nowrap" href="#">TIN TỨC</a>
+                            </li>
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link text-white fw-bold text-nowrap" href="#">EVENTS</a>
+                            </li>
+                            <li class="nav-item flex-fill">
+                                <a class="nav-link text-white fw-bold text-nowrap" href="#">TRA CỨU BH</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </nav>
+
+            </div>
+        </nav>
+
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="row py-3 ">
+                <div class="col-sm-7">
+                    <img class="img-fluid" src="img/banner-sua-chua-mobilecity-03 (1).jpg" alt="">
+                </div>
+                <div class="col-sm-5">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/lvKTRpM4gKA?si=_V4pcSVzbVlyPZjq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="row row-cols-2 row-cols-md-5 g-2">
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <div class="hot">SALE</div>
+                        <img src="img/iphone-11-pro-xanh.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <div class="hot">SALE</div>
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <div class="hot">SALE</div>
+                        <img src="img/iphone-11-pro-xanh.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-12-pro-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- product2 -->
+            <div class="row row-cols-2 row-cols-md-5 g-2">
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- product3 -->
+            <div class="row row-cols-2 row-cols-md-5 g-2">
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-12">
+                    <div class="product border rounded m-1 p-2">
+                        <img src="img/iphone-11-pro-max-vang.jpg.webp" class="img-fluid" alt="">
+                        <h4>Iphone 14 Pro Max</h4>
+                        <pre class="fw-bold fs-6">$19.999</pre>
+                        <a class="btn w-100 btn-primary" href="#" role="button">Mua</a>
+                        <p class="p-sm">Tặng: <span class="text-danger ">Miễn phí BHV</span> lần thứ 5, khi đã mua BHV lần thứ 4. (Quý khách <a href="" class="fw-bold text-decoration-none">Đăng nhập</a> để kiểm tra đơn hàng)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <footer class="bg-light m-3 p-3">
+        <div class="container mt-2 pt-3">
+            <div class="row row-cols-1 row-cols-md-4 g-3">
+                <!-- Cột 1: Hệ thống cửa hàng -->
+                <div class="col">
+                    <h5><i class="fa-solid fa-location-dot"></i> Hệ thống cửa hàng</h5>
+                    <p>
+                        <strong>Hà Nội</strong><br> 120 Thái Hà, Q. Đống Đa | <a href="#">Xem bản đồ</a><br> Điện thoại: 096.120.120 - 037.437.9999<br>
+
+
+                    </p>
+                    <p>
+                        <strong>Hồ Chí Minh</strong><br> 123 Trần Quang Khải, Q.1 | <a href="#">Xem bản đồ</a><br> Điện thoại: 097.1111.602 - 0969.520.520<br> 602 Lê Hồng Phong, P.10, Q.10 | <a href="#">Xem bản
+                            đồ</a><br> Điện thoại: 097.1111.602 - 097.3333.602
+                    </p>
+                    <p><strong>Hotline CSKH:</strong> 097.120.66.88</p>
+                </div>
+
+                <!-- Cột 2: Quy định - Chính sách -->
+                <div class="col">
+                    <h5><i class="fa-solid fa-question"></i> Quy định - Chính sách</h5>
+                    <ul class=" ps-3">
+                        <li>Chính sách bảo hành</li>
+                        <li>Chính sách vận chuyển</li>
+                        <li>Chính sách đổi trả hàng</li>
+                        <li>Chính sách bảo mật thông tin</li>
+                        <li>Hướng dẫn thanh toán</li>
+                        <li>Hướng dẫn mua hàng Online</li>
+                        <li>Chính sách đại lý linh, phụ kiện</li>
+                    </ul>
+                </div>
+
+                <!-- Cột 3: Đăng ký bảng tin + mạng xã hội -->
+                <div class="col">
+                    <h5><i class="fa-solid fa-envelope-circle-check"></i> Đăng ký nhận bảng tin</h5>
+                    <form class="d-flex mb-3">
+                        <input type="email" class="form-control me-2" placeholder="Nhập email của bạn...">
+                        <button type="submit" class="btn btn-warning">Gửi</button>
+                    </form>
+                    <h5 class="text-warning">LIÊN KẾT</h5>
+                    <div class="d-flex gap-2">
+                        <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#"><i class="fab fa-tiktok fa-lg"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- Cột 4: Logo / hình ảnh -->
+                <div class="col d-flex align-items-center justify-content-center">
+                    <img src="img/f.jpg" alt="Logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>

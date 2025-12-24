@@ -1,0 +1,77 @@
+.hot {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.header {
+    background-color: #2a8cdc;
+}
+
+.box,
+.login {
+    filter: opacity(0.5px);
+    background-color: #b3b3b378;
+    border-radius: 5px;
+}
+
+.login {
+    overflow: hidden;
+    /* chặn tràn */
+}
+
+.login-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-bottom: 4px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.login-box {
+    background-color: #8d8d8d61;
+    /* màu vàng nâu */
+    border-radius: 8px;
+    padding: 6px 4px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+}
+
+.login-icon {
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 auto 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* chặn tràn ảnh */
+}
+
+.login-icon img {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+}
+
+.login-box span {
+    display: block;
+    white-space: nowrap;
+}
+
+
+/* hover */
+
+.login-box:hover {
+    background-color: #5f5e5c5d;
+}
